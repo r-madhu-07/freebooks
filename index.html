@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Programming Books</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Free Programming Books</h1>
+    </header>
+
+    <main>
+        <aside class="sidebar">
+            <h2>Filters</h2>
+            <div class="filter-group">
+                <h3>Language</h3>
+                <div id="languageFilters" class="filter-options">
+                    </div>
+            </div>
+            <div class="filter-group">
+                <h3>Category</h3>
+                <div id="categoryFilters" class="filter-options">
+                    </div>
+            </div>
+        </aside>
+
+        <section class="book-list-container">
+            <div id="bookList" class="book-grid">
+                <p class="loading-message">Loading books...</p>
+            </div>
+            <p id="noBooksMessage" class="no-books-found" style="display: none;">No books found matching your criteria.</p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
